@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Oswald&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="tailwind.css">
+    <title>TailwindCss Init</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .title {
+            font-family: 'Playfair Display';
+        }
+        body {
+            background-image: url('assets/back.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: 65%;
+        }
+    </style>
+</head>
+<body class="max-w-6xl bg-gray-100 ml-auto h-screen overflow-x-hidden">
+    <header class="flex justify-between">
+        <h1 class="mt-6 font-black text-md uppercase text-blue-500"><span class="fa fa-check text-white bg-blue-700"></span> Fashion</h1>
+        <nav class="w-1/3 mt-6">
+            <ul class="flex justify-between">
+                <li class="text-black">Home</li>
+                <li class="text-gray-600">Explore</li>
+                <li class="text-gray-600">Collections</li>
+                <li class="text-gray-600">Trending</li>
+            </ul>
+        </nav>
+        <button class="p-6 bg-yellow-500 text-white"><span class="fa fa-search text-white"></span></button>
+    </header>
+    <main class="flex-1 py-16 pr-20">
+        <small class="text-xs font-black text-gray-500 uppercase">Featured Collection</small>
+        <header class="mt-2 flex justify-between">
+            <h2 class="text-8xl font-serif title font-black">Winter <br /> Collection</h2>
+            <div class="controls p-5 self-end">
+                <button class="text-gray-400 mr-2"><span class="relative bottom-1">&larr;</span></button>
+                <button class="border-2 w-10 h-10 text-black p-2 rounded-3xl ml-2 border-black"><span class="font-black relative bottom-1">&rarr;</span></button>
+            </div>
+        </header>
+        <section class="absolute h-44 mt-12 overflow-x-visible">
+                <ul class="flex justify-between">
+                    <li class="w-44 ml-2 bg-green-300 h-44 flex justify-center">
+                        <div class="self-center w-full flex flex-col items-center">
+                            <img src="assets/85-859446_cap-png-mart-black-sports-hat-clipart.png" class="h-12 mt-4"/>
+                            <p class="uppercase text-sm mt-4">Hats</p>
+                        </div>
+                    </li>
+                    <li class="w-44 ml-2 bg-red-300 h-44 flex justify-center">
+                        <div class="self-center w-full flex flex-col items-center">
+                            <img src="assets/leather-gloves-png-image-5a220055e5bef1.2933278115121777499411.png" class="h-12 mt-4" />
+                            <p class="uppercase mt-4 text-sm">Gloves</p>
+                        </div>
+                    </li>
+                    <li class="w-44 ml-2 bg-blue-300 h-44 flex justify-center">
+                        <div class="self-center w-full flex flex-col items-center">
+                            <img src="assets/433-4336756_shoes-png-transparent-images-pair-of-shoes-png.png" class="h-12 mt-4" />
+                            <p class="uppercase mt-4 text-sm">Shoes</p>
+                        </div>
+                    </li>
+                    <li class="w-44 ml-2 bg-yellow-200 h-44 flex justify-center">
+                        <div class="self-center w-full flex flex-col items-center">
+                            <img src="assets/index.png" class="h-12 mt-4" />
+                            <p class="uppercase mt-4 text-sm">Jackets</p>
+                        </div>
+                    </li>
+                    <li class="w-44 ml-2 relative bg-blue-200 h-44 flex justify-center">
+                        <div class="self-center w-60 shadow h-60 bg-white absolute flex flex-col pt-8 items-center">
+                            <img src="assets/backpack_PNG6321.png" class="h-24 mt-4" />
+                            <p class="uppercase mt-4 text-sm">Bags</p>
+                            <p class="mt-2 text-sm text-gray-500">345 Items</p>
+                        </div>
+                    </li>
+                    <li class="w-44 ml-2 bg-red-300 h-44 flex justify-center">
+                        <div class="self-center w-full flex flex-col items-center">
+                            <img src="assets/jeans.png" class="h-12 mt-4" />
+                            <p class="uppercase mt-4 text-sm">Jeans</p>
+                        </div>
+                    </li>
+                    <li class="w-44 ml-2 bg-green-300 h-44 flex justify-center">
+                        <div class="self-center w-full flex flex-col items-center">
+                            <img src="assets/joggers.png" class="h-12 mt-4" />
+                            <p class="uppercase mt-4 text-sm">Joggers</p>
+                        </div>
+                    </li>
+                </ul>
+        </section>
+    </main>
+</body>
+</html>

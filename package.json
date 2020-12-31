@@ -1,0 +1,29 @@
+{
+  "name": "tailwind-ini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alkaj/tailwind-ini.git"
+  },
+  "keywords": [
+    "tailwind"
+  ],
+  "author": "Junior Kamla <alkaj09@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alkaj/tailwind-ini/issues"
+  },
+  "homepage": "https://github.com/alkaj/tailwind-ini#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
